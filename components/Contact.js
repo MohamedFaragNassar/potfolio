@@ -10,7 +10,7 @@ const Contact = () => {
     
     const handleSubmit = (e) => {
         e.preventDefault()
-        fetch("https://mohamedfarag.engineering/api/emails",{
+        fetch("https://www.mohamedfarag.engineer/api/emails",{
             method:"POST",
             body:JSON.stringify({
                 "from":from,

@@ -9,7 +9,7 @@ const projects = [
         live:"https://project-manger.herokuapp.com/",
         githup:"https://github.com/MohamedFaragNassar/projects-manger.git",
         tech:["node","react","graphql","mongo"],
-        image:"project.png"
+        image:"project.PNG"
     },
     {
         title:"Electronices Shop",
@@ -17,7 +17,7 @@ const projects = [
         live:"https://electronices-shop.herokuapp.com/",
         githup:"https://github.com/MohamedFaragNassar/projects-manger.git",
         tech:["node","react","mongo"],
-        image:"e-com.png"
+        image:"e-com.PNG"
     },
     {
         title:"Social App",
@@ -25,15 +25,15 @@ const projects = [
         live:"https://socialapp12.herokuapp.com/",
         githup:"https://github.com/MohamedFaragNassar/soicial-app.git",
         tech:["dj","react","mysql"],
-        image:"social.png"
+        image:"social.PNG"
     },
     {
         title:"Workers Station",
         snippit:"A Platform For Renting Services, you can join as a seller to offer your services or as a client to find the best seller for the service your looking for. The services allowed on the app can be managed through the admin dashboard",
         live:"https://project.herokuapp.com/",
         githup:"https://github.com/MohamedFaragNassar/soicial-app.git",
-        tech:["laravel","react","Mysql"],
-        image:"workers.png"
+        tech:["laravel","react","mysql"],
+        image:"workers.PNG"
     },
     
 ]
