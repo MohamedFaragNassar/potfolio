@@ -20,17 +20,20 @@ a {
 
 
 .closed{
-  right: -23em;
-  top: -1em;
+  right: -1em;
+  top: -48em;
   pointer-events: none;
   opacity: 0;
   
+  
 }
 .open{
-  right: -2rem;
+  right:-1em;
   top: -1em;
   opacity: 1;
   pointer-events: all;
+  
+
 }
 
 .project-open{
@@ -44,9 +47,57 @@ a {
 }
 
 .menu,.pr-details{
-  transition: 500ms all ease-in;
+  transition: 600ms all ease-in;
 }
 
 .sec{
   height: 90vh;
+}
+.sec1{
+  height: 80vh;
+}
+
+.about-me::before{
+  content: "";
+  background: white;
+  width: 20px;
+  height: 20px;
+  transform: rotate(45deg);
+  position: absolute;
+  top: -10px;
+  left: 1.7em;
+}
+
+.wave-top{
+  bottom: -5.2em;
+}
+.wave-bottom{
+  bottom: -13.4em;
+}
+
+.sec-img{
+  bottom:20rem;
+  display: none;
+}
+
+.menu-icon{
+  position: inherit;
+}
+
+@media (max-width:1023px) {
+  .sec{
+    height: 55vh;
+  }
+}
+
+@media (max-width:767px) {
+  .sec{
+    height: 60vh;
+  }
+}
+
+@media (max-width:432px) {
+  .sec-img{
+    display: block;
+  }
 }

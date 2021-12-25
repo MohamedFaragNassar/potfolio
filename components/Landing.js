@@ -2,22 +2,47 @@ import React from 'react'
 
 const Landing = () => {
     return (
-        <div id='landing' className='w-full md:w-5/6 lg:w-11/12 h-3/5 mt-10 flex items-center sec'>
-            <div className='w-1/2 h-full flex flex-col items-start justify-center'>
-                <span>Hi,</span>
-                <span >I am Mohamed Farag</span>
-                <span>Web Developer</span>
-                <p className='mt-4 text-gray-600 w-3/4 '>
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                     Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                     when an unknown printer took a galley of type and scrambled it to make a type 
-                     specimen book.
-                </p>
+        <div className='w-full sec flex flex-col md:flex-row  items-center justify-start md:justify-center
+                        pt-16 md:pt-0'>
+            
+            <div id='landing' className='w-full mt-10 md:mt-28 lg:mt-10 md:w-5/6  lg:w-11/12  
+            flex items-center md:h-full'>
+                <div className='flex items-center justify-end w-full absolute -top-10 right-1 
+                                 md:top-2 md:-right-2 lg:hidden'>
+                    <a target="_blank" rel="noopener noreferrer" 
+                    href=''>
+                        <img className='w-8 h-8 mr-2' src='resume.png' />
+                    </a>
+                    <a target="_blank" rel="noopener noreferrer" 
+                    href='https://github.com/MohamedFaragNassar'>
+                        <img className='w-8 h-8 mr-2' src='githup.svg' />
+                    </a>
+                    <a target="_blank" rel="noopener noreferrer"
+                    href='https://www.linkedin.com/in/mohamed-farag-farag-81530210a/'>
+                        <img className='w-8 h-8 mr-2' src='linkedin.svg' />
+                    </a>
+                </div>
+                <div className=' w-full mt-10 md:mt-0 md:w-1/2 h-full flex flex-col items-start justify-center  
+                   md:justify-start md:pt-20 lg:justify-center lg:pt-0 p-4 '>
+                    <span className='text-xl md:text-2xl font-bold text-tc'>Hi,</span>
+                    <span className='text-xl md:text-2xl font-bold text-tc' >I am Mohamed Farag</span>
+                    <span className='text-lg md:text-xl font-bold text-tc-s' >Web Developer</span>
+                    <p className='mt-4 text-gray-800  md:text-gray-600 text-lg w-5/6 md:w-3/4 '>
+                        I can help you build and deploy modern, high performance 
+                        full stack web applications using the latest web and cloud technologies.
+                    </p>
+                </div>
+                <div className='w-1/2 h-full hidden md:flex items-center justify-center
+                    md:items-start md:pt-20 lg:items-center lg:pt-0'>
+                    <img className='max-w-full max-h-full' src='./main-img.svg' />
+                </div>
             </div>
-            <div className='w-1/2 h-full flex items-center justify-center'>
-                <img className='max-w-full max-h-full' src='./img1.jpg' />
-            </div>
-        </div>
+            <svg className='absolute  w-full hidden lg:block wave-top' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                <path fill="#0099ff" fillOpacity="1" d="M0,192L34.3,192C68.6,192,137,192,206,170.7C274.3,149,343,107,411,96C480,85,549,107,617,122.7C685.7,139,754,149,823,160C891.4,171,960,181,1029,202.7C1097.1,224,1166,256,1234,224C1302.9,192,1371,96,1406,48L1440,0L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z">
+                </path>
+            </svg>
+            <img src='simg1.svg' className='absolute sec-img -z-10 opacity-30 md:hidden' />
+       </div>
     )
 }
 
