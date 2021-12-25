@@ -23,7 +23,7 @@ const Navbar = () => {
                 <div className='pr-4 relative md:hidden lg:block'>
                     <div className='hidden lg:flex items-center justify-center'>
                         <a target="_blank" rel="noopener noreferrer" 
-                        href=''>
+                        href='https://drive.google.com/file/d/16Ezs4-QPR8xrsqgOTFYtApyxsMSJKvwM/view?usp=sharing'>
                             <img className='w-8 h-8 mr-2' src='resume.png' />
                         </a>
                         <a target="_blank" rel="noopener noreferrer" 

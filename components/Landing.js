@@ -2,15 +2,14 @@ import React from 'react'
 
 const Landing = () => {
     return (
-        <div className='w-full sec flex flex-col md:flex-row  items-center justify-start md:justify-center
-                        pt-16 md:pt-0'>
-            
-            <div id='landing' className='w-full mt-10 md:mt-28 lg:mt-10 md:w-5/6  lg:w-11/12  
-            flex items-center md:h-full'>
-                <div className='flex items-center justify-end w-full absolute -top-10 right-1 
-                                 md:top-2 md:-right-2 lg:hidden'>
+        <div id='landing' className='w-full sec flex flex-col md:flex-row  items-center justify-start md:justify-center
+                        pt-16 md:pt-0 '>
+            <div  className='w-full  md:mt-28 lg:mt-10 md:w-5/6  lg:w-11/12  
+            flex items-center md:h-full relative'>
+                <div className='flex items-center justify-end w-full absolute 
+                                 top-2 right-0 lg:hidden'>
                     <a target="_blank" rel="noopener noreferrer" 
-                    href=''>
+                    href='https://drive.google.com/file/d/16Ezs4-QPR8xrsqgOTFYtApyxsMSJKvwM/view?usp=sharing'>
                         <img className='w-8 h-8 mr-2' src='resume.png' />
                     </a>
                     <a target="_blank" rel="noopener noreferrer" 

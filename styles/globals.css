@@ -76,7 +76,7 @@ a {
 }
 
 .sec-img{
-  bottom:20rem;
+  bottom:11.5rem;
   display: none;
 }
 
@@ -92,7 +92,7 @@ a {
 
 @media (max-width:767px) {
   .sec{
-    height: 60vh;
+    height: 80vh;
   }
 }
 

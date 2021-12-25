@@ -2,7 +2,7 @@ const mailgun = require("mailgun-js");
 const mg = mailgun({apiKey: process.env.API_KEY, domain: process.env.DOMAIN});
 
 export default function handler(req, res) {
-    if(req.method == "post"){
+    if (req.method === "POST") {
         const data = {
             from: req.body.from,
             to: 'mfnemo502@gmail.com',
