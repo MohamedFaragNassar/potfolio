@@ -23,25 +23,25 @@ const Navbar = () => {
                 <div className='pr-4 relative md:hidden lg:block'>
                     <div className='hidden lg:flex items-center justify-center'>
                         <a target="_blank" rel="noopener noreferrer" 
-                        href='https://drive.google.com/file/d/16Ezs4-QPR8xrsqgOTFYtApyxsMSJKvwM/view?usp=sharing'>
-                            <img className='w-8 h-8 mr-2' src='resume.png' />
+                        href='https://drive.google.com/file/d/1u_wlo0TH1nxa7fsHWrn22ZE3qv2e12NV/view?usp=sharing'>
+                            <img className='w-8 h-8 mr-2' src='resume.png' alt='resume-icon' />
                         </a>
                         <a target="_blank" rel="noopener noreferrer" 
                         href='https://github.com/MohamedFaragNassar'>
-                            <img className='w-8 h-8 mr-2' src='githup.svg' />
+                            <img className='w-8 h-8 mr-2' src='githup.svg' alt='githup-icon' />
                         </a>
                         <a target="_blank" rel="noopener noreferrer"
                         href='https://www.linkedin.com/in/mohamed-farag-farag-81530210a/'>
-                            <img className='w-8 h-8 mr-2' src='linkedin.svg' />
+                            <img className='w-8 h-8 mr-2' src='linkedin.svg' alt='linkedin-icon' />
                         </a>
                     </div>
                     <div className='relative md:hidden'>
                         {menuState === "closed" ?
                         <span className='z-20 menu-icon' onClick={()=>setMenuState("open")}>
-                            <img src='menu.svg' className='w-8 h-8' />
+                            <img src='menu.svg' className='w-8 h-8' alt='menu-icon' />
                         </span> : 
                         <span className='z-20 menu-icon' onClick={()=>setMenuState("closed")}>
-                            <img src='close.svg' className='w-8 h-8' />
+                            <img src='close.svg' className='w-8 h-8' alt='close-icon' />
                         </span>
                         }
                         <SideMenu state={menuState} close={()=>setMenuState("closed")}   />

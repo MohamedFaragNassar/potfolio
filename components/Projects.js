@@ -1,6 +1,5 @@
 import React from 'react'
 import ProjectCard from './ProjectCard'
-import ProjectCard2 from './ProjectCard2'
 
 const projects = [
     {
